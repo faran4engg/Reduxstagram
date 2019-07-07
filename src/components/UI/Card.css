@@ -1,0 +1,11 @@
+.cust-card {
+  width: 360px !important;
+}
+
+.ui.card > .image.img-height img {
+  min-height: 320px !important;
+}
+
+.ui.card > .content > .content-height {
+  min-height: 3em !important;
+}

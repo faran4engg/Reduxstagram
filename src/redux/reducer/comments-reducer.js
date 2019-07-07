@@ -5,7 +5,6 @@ const initialState = {
 };
 
 const commentsReducer = (state = initialState, action) => {
-  console.log("commentsReducer", state);
   return state;
 };
 

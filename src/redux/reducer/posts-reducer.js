@@ -4,7 +4,6 @@ const initialState = {
   posts
 };
 const postsReducer = (state = initialState, action) => {
-  console.log("postsReducer", state);
   return state;
 };
 
