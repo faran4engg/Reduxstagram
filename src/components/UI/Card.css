@@ -1,5 +1,5 @@
 .ui.card.cust-card {
-  width: 360px;
+  width: 360px !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 1.75em;
@@ -19,5 +19,6 @@
 i.icon,
 i.icons {
   font-size: 1.5em;
-  color: #e91e63;
+  /* color: #e91e63; */
+  color: #b3b3b3;
 }

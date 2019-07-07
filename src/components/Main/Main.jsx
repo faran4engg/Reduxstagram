@@ -8,7 +8,7 @@ const Main = props => {
   return (
     <React.Fragment>
       <h1 className="heading">
-        <Link to="/">Redux-stagram</Link>
+        <Link to="/">Faran-stagram</Link>
       </h1>
 
       <Route exact path="/view/:id" render={() => <SinglePhoto {...props} />} />
