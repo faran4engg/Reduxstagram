@@ -2,7 +2,6 @@ import React from "react";
 import Card from "../UI/Card";
 
 const PhotoGrid = props => {
-  console.log(props);
   const { posts } = props;
 
   return (

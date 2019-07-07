@@ -11,7 +11,7 @@ const Main = props => {
         <Link to="/">Redux-stagram</Link>
       </h1>
 
-      <Route exact path="/view/:id" render={() => <SinglePhoto />} />
+      <Route exact path="/view/:id" render={() => <SinglePhoto {...props} />} />
       <Route exact path="/" render={() => <PhotoGrid {...props} />} />
     </React.Fragment>
   );

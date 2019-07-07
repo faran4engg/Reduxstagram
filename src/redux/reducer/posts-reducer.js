@@ -4,7 +4,12 @@ const initialState = {
   posts
 };
 const postsReducer = (state = initialState, action) => {
-  return state;
+  switch (action.type) {
+    case "GET_POSTS":
+      return state;
+    default:
+      return state;
+  }
 };
 
 export default postsReducer;

@@ -6,6 +6,9 @@ import Main from "../../components/Main/Main";
 import { connect } from "react-redux";
 
 class App extends Component {
+  componentDidMount() {
+    this.props.getPosts();
+  }
   render() {
     return (
       <BrowserRouter>
