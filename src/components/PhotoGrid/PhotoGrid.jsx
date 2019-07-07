@@ -4,6 +4,7 @@ import PlaceHolderCard from "../UI/CardLoader/CardLoader";
 
 const PhotoGrid = props => {
   const { posts } = props;
+
   const [loading, setLoading] = useState(true);
   useEffect(props => {
     setTimeout(() => {
