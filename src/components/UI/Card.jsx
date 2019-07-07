@@ -13,7 +13,7 @@ const Card = props => {
       </div>
       <div className="content">
         <span className="right floated">
-          <i className="heart outline like icon" />
+          <i className="thumbs up icon icon" />
           17 likes
         </span>
         <i className="comment icon" />3 comments

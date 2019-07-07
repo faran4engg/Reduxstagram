@@ -9,3 +9,9 @@
 .ui.card > .content > .content-height {
   min-height: 3em !important;
 }
+
+i.icon,
+i.icons {
+  font-size: 1.5em;
+  color: #e91e63;
+}
